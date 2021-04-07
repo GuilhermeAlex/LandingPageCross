@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
     <style>
         .tm-social {
             width: 40px;
@@ -17,6 +19,11 @@
         }
     </style>
 
+    <style>
+        .newsletterColor {
+            background-color: forestgreen;
+        }
+    </style>
     <title>Site Completo</title>
 </head>
 
@@ -77,10 +84,14 @@
 
         <nav aria-label="...">
             <ul class="pagination pagination-lg d-flex justify-content-center">
-                <li class="page-item disabled w-25 text-center"> <a class="page-link" href="" tabindex="-1">GOOGLE</a> </li>
-                <li class="page-item disabled w-25 text-center"><a class="page-link" href="" tabindex="-1">FACEBOOK</a></li>
-                <li class="page-item disabled w-25 text-center"><a class="page-link" href="" tabindex="-1">YAHOO</a></li>
-                <li class="page-item disabled w-25 text-center"><a class="page-link" href="" tabindex="-1">PAYPAL</a></li>
+                <li class="page-item disabled w-25 text-center"> <a class="page-link" href="" tabindex="-1">GOOGLE</a>
+                </li>
+                <li class="page-item disabled w-25 text-center"><a class="page-link" href="" tabindex="-1">FACEBOOK</a>
+                </li>
+                <li class="page-item disabled w-25 text-center"><a class="page-link" href="" tabindex="-1">YAHOO</a>
+                </li>
+                <li class="page-item disabled w-25 text-center"><a class="page-link" href="" tabindex="-1">PAYPAL</a>
+                </li>
             </ul>
         </nav>
 
@@ -97,82 +108,111 @@
 
         <!--Jumbotron Final-->
 
-            <!--FOOTER INICIO-->
-            <hr>
-            <footer>
+        <!-- Jumbotrom 2 -->
+        <div class="jumbotron jumbotron-fluid newsletterColor">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    coluna (0,1)
+                </div>
+                <div class="col">
+                    coluna (0,2)
+                </div>
+                <div class="w-100"></div>
+                <div class="col">
+                    coluna (1,1)
+                </div>
+                <div class="col">
+                    coluna (1,2)
+                </div>
+                
+            </div>
+        </div>
+    </div>
 
-                <div>
+        <!-- Jumbotrom 2 fim -->
 
-                    <section class="newsletter ">
-                        <div class="container">
+        <!--FOOTER INICIO-->
+        <hr>
+        <footer>
+            <!-- Newsletter inicio -->
+            <div class="newsletterColor">
+
+                <section class="newsletter">
+                    <div class="container d-flex justify-content-center">
                         <div class="row">
-                        <div class="col-sm-12">
-                            <div class="content">
-                                <br> <br>
-                                <h6 class="d-flex justify-content-center">Deixe seu e-mail para receber nossa newsletter.</h6>
-                                <br> <br> 
-                            <div class="input-group">
-                                 <input type="email" class="form-control" placeholder="Digite seu email">
-                                 <span class="input-group-btn">
-                                 <button class="btn" type="submit" (click)='inscreva()'>Inscreva-se agora</button>
-                                 </span>
-                                  </div>
+                            <div class="col-md-12">
+                                <div class="content">
+                                    <br> <br>
+                                    <h5 class="">Deixe seu e-mail para receber nossa newsletter.</h5>
+                                    <br> <br>
+                                    <div class="input-group">
+                                        <!-- <input type="email" class="form-control fa fa-search b-search" placeholder="Digite seu email"/> -->
+                                        <i class="fa fa-envelope b-search form-control text-right"></i>
+                                        <span class="input-group-btn">
+
+                                        </span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
-                        </div>
-                        </div>
-                        </section> <br>
-                        <hr>
-                </div>
-                <div class="row mb-3">
-                    <div class="col-md-12 d-flex justify-content-center">
-
-                        <a href="" target="_blank" class="p-3">
-                            <img class="tm-social " src="img/android.png" alt="Logo do Facebook">
-                        </a>
-
-                        <a href="" target="_blank" class="p-3">
-                            <img class="tm-social " src="img/apple.png" alt="Logo do github">
-                        </a>
-
-                        <a href="" target="_blank" class="p-3">
-                            <img class="tm-social " src="img/windows.png" alt="Logo do Instagram">
-                        </a>
-
                     </div>
+                </section> <br>
+                <hr>
+            </div>
+            <!-- Newsletter fim  -->
+
+            
+
+            <!-- Icones inicio -->
+            <div class="row mb-3">
+                <div class="col-md-11 d-flex justify-content-center">
+
+                    <a href="" target="_blank" class="p-3">
+                        <img class="tm-social " src="img/android.png" alt="Logo do Facebook">
+                    </a>
+
+                    <a href="" target="_blank" class="p-3">
+                        <img class="tm-social " src="img/apple.png" alt="Logo do github">
+                    </a>
+
+                    <a href="" target="_blank" class="p-3">
+                        <img class="tm-social " src="img/windows.png" alt="Logo do Instagram">
+                    </a>
 
                 </div>
-               
-                <br> 
-                <div class="row">
-                    <div class="col-md-12">
-                        <p class="text-center">
-                            Direitos reservados: Guilherme Alex &copy;
-                        </p>
-                    </div>
 
-                </div>
-            </footer>
-            <!--FOOTER FINAL-->
+            </div>
+            <!-- icones fim -->
+            <br>
+        </footer>
+        <!--FOOTER FINAL-->
+        <div class="row">
+            <div class="col-md-11">
+                <p class="d-flex justify-content-center">
+                    Direitos reservados: Cross Media &copy;
+                </p>
+            </div>
 
         </div>
-        <!--Essa Div é do container linha de origem 127-->
+    </div>
+    <!--Essa Div é do container linha de origem 129-->
 
 
 
-        <!-- JavaScript (Opcional) -->
-        <script src="script.js"></script>
+    <!-- JavaScript (Opcional) -->
+    <script src="script.js"></script>
 
-        <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
