@@ -63,138 +63,222 @@
     <!-- FINAL BARRA MENU-->
 
     <!--carousel inicio-->
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-            <!--lista ordenada-->
-            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <!--Actve é o que vai iniciar os slides-->
-                <img class="d-block w-100 imgTopo"
-                    src="https://images-ext-1.discordapp.net/external/8plDcvdP6uj8e5SILSWAEIAwlDcRQ64HWrBhSPpI7qk/https/i.imgur.com/aFSgybo.jpg?width=400&height=266"
-                    height="500px" width="400px" alt="Primeiro Slide">
+
+    <section style="position: relative">
+
+        <!--Banner Rotativo-->
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100"
+                        src="https://images-ext-1.discordapp.net/external/8plDcvdP6uj8e5SILSWAEIAwlDcRQ64HWrBhSPpI7qk/https/i.imgur.com/aFSgybo.jpg?width=400&height=266"
+                        height="500px" width="400px" alt="Primeiro Slide">
+                </div>
             </div>
-        </div>
-        <!--carousel final-->
+        <!-- fim banner rotativo-->
 
-        <!--Jumbotron Inicio-->
+        <div class="capa" style="position: absolute;top: 100px">
+            <div class="texto-capa">
+                <button type="button" class="btn btn-outline-light btn-lg">IPHONE APP</button>
+                <button type="button" class="btn btn-outline-light btn-lg">ANDROID APP</button>
+            </div>
 
-        <nav aria-label="...">
-            <ul class="pagination pagination-lg d-flex justify-content-center">
-                <li class="page-item disabled w-25 text-center"> <a class="page-link" href="" tabindex="-1">GOOGLE</a>
-                </li>
-                <li class="page-item disabled w-25 text-center"><a class="page-link" href="" tabindex="-1">FACEBOOK</a>
-                </li>
-                <li class="page-item disabled w-25 text-center"><a class="page-link" href="" tabindex="-1">YAHOO</a>
-                </li>
-                <li class="page-item disabled w-25 text-center"><a class="page-link" href="" tabindex="-1">PAYPAL</a>
-                </li>
-            </ul>
-        </nav>
+    </section>
 
+    <!--carousel final-->
+
+    <!-- Barra de Redes -->
+
+    <nav aria-label="...">
+        <ul class="pagination pagination-lg d-flex justify-content-center">
+            <li class="page-item disabled w-25 text-center"> <a class="page-link" href="" tabindex="-1">GOOGLE</a>
+            </li>
+            <li class="page-item disabled w-25 text-center"><a class="page-link" href="" tabindex="-1">FACEBOOK</a>
+            </li>
+            <li class="page-item disabled w-25 text-center"><a class="page-link" href="" tabindex="-1">YAHOO</a>
+            </li>
+            <li class="page-item disabled w-25 text-center"><a class="page-link" href="" tabindex="-1">PAYPAL</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Barra de Redes fim -->
+
+    <!--Jumbotron Inicio 1-->
+    <div class="jumbotron jumbotron-fluid" style="background-color: #fffef5 ">
         <div class="container-fluid corPerifa">
-            <div class="jumbotron jumbotron-fluid" style="background-color: #fffef5">
-                <div class="container d-flex justify-content-center d-flex align-items-center"> <img
-                        class="ajuste img-fluid mt-5" src="https://i.imgur.com/hblFWE6.png" alt="" height="250"
-                        width="300" /> <!-- no campo src colocar algo do tipo {{fornecedor.foto}}  -->
-                    <h1 class="ml-50 texto-20 mt-5">TAKE PHOTOS</h1>
-                    <!-- trocar Nome da loja por algo semelhante a {{fornecedor.nome}} -->
+            <div class="hora box">
+                <img align="left" width="300" height="250" src='https://i.imgur.com/hblFWE6.png'>
+                <div class="texto">
+                    <h1>CAPTURE PHOTO</h1> <br>
                 </div>
-            </div>
-        </div>
+                <div class="texto">It is a long established fact that a reader will be distracted by the readable
+                    content of a page when looking at its layout. The point of usin
+                    content of a page when looking at its layout. The point of usin</div>
 
-        <!--Jumbotron Final-->
+                <div><i class="fa fa-camera">Camera </i></div>
+                <div><i class="fa fa-camera">Video</i></div>
+                <div><i class="fa fa-camera">Olho</i></div>
+                <div><i class="fa fa-camera">paisagem</i></div>
+                <div><i class="fa fa-camera">Imagem</i></div>
 
-        <!-- Jumbotrom 2 -->
-        <div class="jumbotron jumbotron-fluid newsletterColor">
-        <div class="container">
-            <div class="row">
-                <div class="col">
-                    coluna (0,1)
-                </div>
-                <div class="col">
-                    coluna (0,2)
-                </div>
-                <div class="w-100"></div>
-                <div class="col">
-                    coluna (1,1)
-                </div>
-                <div class="col">
-                    coluna (1,2)
-                </div>
                 
             </div>
+
         </div>
     </div>
 
-        <!-- Jumbotrom 2 fim -->
 
-        <!--FOOTER INICIO-->
-        <hr>
-        <footer>
-            <!-- Newsletter inicio -->
-            <div class="newsletterColor">
 
-                <section class="newsletter">
-                    <div class="container d-flex justify-content-center">
-                        <div class="row">
-                            <div class="col-md-12">
-                                <div class="content">
-                                    <br> <br>
-                                    <h5 class="">Deixe seu e-mail para receber nossa newsletter.</h5>
-                                    <br> <br>
-                                    <div class="input-group">
-                                        <!-- <input type="email" class="form-control fa fa-search b-search" placeholder="Digite seu email"/> -->
-                                        <i class="fa fa-envelope b-search form-control text-right"></i>
-                                        <span class="input-group-btn">
 
-                                        </span>
-                                    </div>
+    <!--Jumbotron Final 1-->
+
+    <!-- Jumbotrom 2 -->
+    <div class="jumbotron jumbotron-fluid newsletterColor">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-4">
+                    <br>
+                    <img id="imagem" src="./img/grupo.png" width="30" height="30" />
+                    <br> <br>
+                    <h6>MALESUADA FAMES TURPIS</h6>
+                    <br>
+                    <div id="texto">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout. The point of using </div>
+                </div>
+                <div class="col-4">
+                    <br>
+                    <img id="imagem" src="img/foto-paisagem-emoldurada.png" width="30" height="30" />
+                    <br> <br>
+                    <h6>MALESUADA FAMES TURPIS</h6>
+                    <br>
+                    <div id="texto">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout. The point of using </div>
+                </div>
+                <div class="col-4">
+                    <br>
+                    <img id="imagem" src="img/simbolo-de-envelope-aberto.png" width="30" height="30" />
+                    <br> <br>
+                    <h6>MALESUADA FAMES TURPIS</h6>
+                    <br>
+                    <div id="texto">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout. The point of using </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <br>
+                    <img id="imagem" src="img/chat.png" width="30" height="30" />
+                    <br> <br>
+                    <h6>MALESUADA FAMES TURPIS</h6>
+                    <br>
+                    <div id="texto">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout. The point of using </div>
+                </div>
+                <div class="col-4">
+                    <br>
+                    <img id="imagem" src="img/engrenagem.png" width="30" height="30" />
+                    <br> <br>
+                    <h6>MALESUADA FAMES TURPIS</h6>
+                    <br>
+                    <div id="texto">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout. The point of using </div>
+                </div>
+                <div class="col-4">
+                    <br>
+                    <img id="imagem" src="img/impressora.png" width="30" height="30" />
+                    <br> <br>
+                    <h6>MALESUADA FAMES TURPIS</h6>
+                    <br>
+                    <div id="texto">It is a long established fact that a reader will be distracted by the readable
+                        content of a page when looking at its layout. The point of using </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Jumbotrom 2 fim -->
+
+    <!--Jumbotron Inicio 3-->
+    <div class="container-fluid ">
+        <div class="jumbotron jumbotron-fluid" style="background-color: #fffef5">
+            <div class="container text-center">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae, inventore molestiae quia
+                    minima blanditiis delectus placeat nisi nam temporibus nulla unde provident quaerat ea voluptas,
+                    nemo ducimus eius necessitatibus possimus. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Consectetur voluptate libero, ratione molestias voluptas repellat minima commodi officia
+                    molestiae, error dolore neque maiores repellendus quasi quidem consequatur culpa nam aliquid!
+                </p>
+            </div>
+            <h5 class="text-center">Jonh Doe</h5>
+            <p class="text-center">app developer</p>
+        </div>
+    </div>
+
+    <!--Jumbotron Final 3-->
+
+    <!--FOOTER INICIO-->
+    <hr>
+    <footer>
+        <!-- Newsletter inicio -->
+        <div class="newsletterColor">
+
+            <section class="newsletter">
+                <div class="container d-flex justify-content-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="content">
+                                <br> <br>
+                                <h5 class="">Deixe seu e-mail para receber nossa newsletter.</h5>
+                                <br> <br>
+                                <div class="input-group">
+                                    <!-- <input type="email" class="form-control fa fa-search b-search" placeholder="Digite seu email"/> -->
+                                    <i class="fa fa-envelope b-search form-control text-right"></i>
+                                    <span class="input-group-btn">
+
+                                    </span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                </section> <br>
-                <hr>
-            </div>
-            <!-- Newsletter fim  -->
-
-            
-
-            <!-- Icones inicio -->
-            <div class="row mb-3">
-                <div class="col-md-11 d-flex justify-content-center">
-
-                    <a href="" target="_blank" class="p-3">
-                        <img class="tm-social " src="img/android.png" alt="Logo do Facebook">
-                    </a>
-
-                    <a href="" target="_blank" class="p-3">
-                        <img class="tm-social " src="img/apple.png" alt="Logo do github">
-                    </a>
-
-                    <a href="" target="_blank" class="p-3">
-                        <img class="tm-social " src="img/windows.png" alt="Logo do Instagram">
-                    </a>
-
                 </div>
+            </section> <br>
+            <hr>
+        </div>
+        <!-- Newsletter fim  -->
 
-            </div>
-            <!-- icones fim -->
-            <br>
-        </footer>
-        <!--FOOTER FINAL-->
-        <div class="row">
-            <div class="col-md-11">
-                <p class="d-flex justify-content-center">
-                    Direitos reservados: Cross Media &copy;
-                </p>
+
+
+        <!-- Icones inicio -->
+        <div class="row mb-3">
+            <div class="col-md-11 d-flex justify-content-center">
+
+                <a href="" target="_blank" class="p-3">
+                    <img class="tm-social " src="img/android.png" alt="Logo do Facebook">
+                </a>
+
+                <a href="" target="_blank" class="p-3">
+                    <img class="tm-social " src="img/apple.png" alt="Logo do github">
+                </a>
+
+                <a href="" target="_blank" class="p-3">
+                    <img class="tm-social " src="img/windows.png" alt="Logo do Instagram">
+                </a>
+
             </div>
 
         </div>
+        <!-- icones fim -->
+        <br>
+    </footer>
+    <!--FOOTER FINAL-->
+    <div class="row">
+        <div class="col-md-11">
+            <p class="d-flex justify-content-center">
+                Direitos reservados: Cross Media &copy;
+            </p>
+        </div>
+
+    </div>
     </div>
     <!--Essa Div é do container linha de origem 129-->
 
