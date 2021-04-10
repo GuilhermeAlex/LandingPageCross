@@ -1,15 +1,6 @@
-/* .imgTopo{
-    width: 400;
-    height: 400;
-} */
-/* .newsletter {
-    padding: 80px 0;
-    background: none;
-    background: #70DB56;
-    color: #fff;
-    font-weight:600;
-    }
-     */
-     /* .ImgCenter{
-        
-     } */
+.centraliza{
+    height: 10em;
+    display: flex;
+    align-items: center;
+    justify-content: center }
+  
